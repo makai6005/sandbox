@@ -98,7 +98,10 @@
     "watch-css-dist": "nodemon --watch dist/css/ --ext css --ignore \"dist/css/*.rtl.*\" --exec \"npm run css-rtl\"",
     "watch-css-docs": "nodemon --watch site/assets/scss/ --ext scss --exec \"npm run css-lint\"",
     "watch-js-main": "nodemon --watch js/src/ --ext js --exec \"npm-run-all js-lint js-compile\"",
-    "watch-js-docs": "nodemon --watch site/assets/js/ --ext js --exec \"npm run js-lint\""
+    "watch-js-docs": "nodemon --watch site/assets/js/ --ext js --exec \"npm run js-lint\"",
+    
+    "sass-dev": "sass --watch --update --style=expanded scss:dist/css",
+    "sass-prod": "sass --no-source-map --style=compressed scss:dist/css"
   },
   "peerDependencies": {
     "@popperjs/core": "^2.11.5"
