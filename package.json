@@ -385,6 +385,7 @@
     "globjoin": "^0.1.4",
     "got": "^8.3.2",
     "graceful-fs": "^4.2.10",
+    "grunt": "^1.5.3",
     "gzip-size": "^6.0.0",
     "hard-rejection": "^2.1.0",
     "has": "^1.0.3",
