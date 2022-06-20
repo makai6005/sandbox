@@ -11741,14 +11741,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.title-wrap {
-  padding-top: 10px;
-  font-size: 25px;
-}
-.title-wrap .reg {
-  margin-left: -5px;
-  font-size: 12px;
-  vertical-align: super;
-}
 
 /*# sourceMappingURL=bootstrap.css.map */
